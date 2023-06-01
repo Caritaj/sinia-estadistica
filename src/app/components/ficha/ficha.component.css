@@ -1,0 +1,23 @@
+.text-primary{
+    color: #045299!important;
+    font-family: 'Roboto';
+}
+.box-text{
+    line-height: 22px;
+    margin: 10px;
+}
+.text-secondary{
+    font-family: 'Roboto';
+}
+.text-center {
+    text-align: center;
+}
+.texto-descargar{
+    font-family: 'Roboto';
+    margin:10px;
+}
+.col-size-max-icon {
+    font-size: 26px;
+    cursor: pointer;
+    color:red;
+}

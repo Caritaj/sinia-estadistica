@@ -1,0 +1,53 @@
+
+.indicadores-container{
+    border: 1px solid rgba(0,0,0,.125);
+    
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    
+    position: relative;
+}
+.indicadores-title{
+    margin: 0;
+    font-weight: 700;
+    color: #707579;
+    cursor: pointer;
+    font-size: 16px;
+    padding:10px;
+    position: sticky;
+    margin-left: 15px;
+    font-family: 'Roboto';
+    
+}
+.indicadores-datos{
+    max-height: 600px;
+    overflow-y: scroll;
+    padding: 20px;
+}
+  .charts-container-section{
+    margin: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 0;
+    font-size: .8571em;
+}
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  border: 1px solid #e0e0e0;
+}
+.nodata {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nodata img {
+  max-width: 100%;
+  height: auto;
+}

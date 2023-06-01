@@ -1,0 +1,39 @@
+.heading{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+h5{
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    color: #045299;
+    font-size: 1.57em;
+    line-height: 1.4em;
+}
+.custom-title{
+    padding: 30px 30px 30px 0px;
+    font-family: 'Roboto'
+}
+h5::before{
+    content: "";
+    width: 5%;
+    height: 7px;
+    background: #045299;
+    position: absolute;
+    bottom: -9px;
+}
+.form-inline .form-group {
+    margin-right: 10px;
+}
+.container{
+    padding: 20px;
+}
+.custom-subtitle{
+    font-size: 18px;
+    color: #707579;
+    font-weight: 400;
+    font-family: 'Roboto';
+}

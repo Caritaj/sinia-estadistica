@@ -1,0 +1,90 @@
+<div class="box-text" *ngFor="let item of ListaFicha">
+    <div class="ml-2 mr-2">
+        <div class="row">
+            <div class="col">
+                <span class="text-primary font-weight-bold">Nombre</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <span class="text-secondary">
+                    <p class="text-justify">{{item.nombre}}</p>
+                </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <span class="text-primary font-weight-bold">Descripción</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <span class="text-secondary">
+                    <p class="text-justify">{{item.descripcion}}</p>
+                </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <span class="text-primary font-weight-bold">Finalidad</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <span class="text-secondary">
+                    <p class="text-justify">{{item.finalidad}}</p>
+                </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <span class="text-primary font-weight-bold">Limitaciones</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <span class="text-secondary">
+                    <p class="text-justify">{{item.limitaciones}}</p>
+                </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <span class="text-primary font-weight-bold">Metodología</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <span class="text-secondary">
+                    <p class="text-justify">{{item.metodologia}}</p>
+                </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <span class="text-primary font-weight-bold">Elaborado por</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <span class="text-secondary">
+                    <p class="text-justify">{{item.fuente}}</p>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-4">
+        <span class="texto-descargar">Descargar PDF</span>
+        <span class="ml-2 text-primary text-center"><span>
+            <span (click)="descargarPDF()">
+                <i class="fa fa-file-pdf ml-3 col-size-max-icon"></i>
+            </span>
+        </span>
+    </span>
+    </div>
+</div>
+
+
+
+
+    

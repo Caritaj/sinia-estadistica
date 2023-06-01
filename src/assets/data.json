@@ -1,0 +1,46 @@
+{
+    "ubigeo": [
+      { "value": "00", "nombre": "Perú" },
+      { "value": "01", "nombre": "Amazonas" },
+      { "value": "02", "nombre": "Ancash" },
+      { "value": "03", "nombre": "Apurímac" },
+      { "value": "04", "nombre": "Arequipa" },
+      { "value": "05", "nombre": "Ayacucho" },
+      { "value": "06", "nombre": "Cajamarca" },
+      { "value": "07", "nombre": "Callao" },
+      { "value": "08", "nombre": "Cusco" },
+      { "value": "09", "nombre": "Huancavelica" },
+      { "value": "10", "nombre": "Huánuco" },
+      { "value": "11", "nombre": "Ica" },
+      { "value": "12", "nombre": "Junín" },
+      { "value": "13", "nombre": "La Libertad" },
+      { "value": "14", "nombre": "Lambayeque" },
+      { "value": "15", "nombre": "Lima" },
+      { "value": "16", "nombre": "Loreto" },
+      { "value": "17", "nombre": "Madre de Dios" },
+      { "value": "18", "nombre": "Moquegua" },
+      { "value": "19", "nombre": "Pasco" },
+      { "value": "20", "nombre": "Piura" },
+      { "value": "21", "nombre": "Puno" },
+      { "value": "22", "nombre": "San Martín" },
+      { "value": "23", "nombre": "Tacna" },
+      { "value": "24", "nombre": "Tumbes" },
+      { "value": "25", "nombre": "Ucayali" }
+    ],
+    "tematica": [
+      { "value": "01", "nombre": "Agua" },
+      { "value": "02", "nombre": "Aire y Atmósfera" },
+      { "value": "12", "nombre": "Asuntos Socio Ambientales" },
+      { "value": "04", "nombre": "Biodiversidad y Ecosistemas" },
+      { "value": "07", "nombre": "Cambio Climático" },
+      { "value": "05", "nombre": "Clima y Eventos Naturales" },
+      { "value": "13", "nombre": "Consumo Responsable y Producción Sostenible" },
+      { "value": "11", "nombre": "Economía Ambiental y Bionegocios" },
+      { "value": "06", "nombre": "Gestión de Riesgos y Desastres" },
+      { "value": "09", "nombre": "Gestión, Fiscalización y Participación Ciudadana Ambiental" },
+      { "value": "08", "nombre": "Residuos" },
+      { "value": "10", "nombre": "Salud Ambiental" },
+      { "value": "03", "nombre": "Suelo y Tierra" }
+    ]
+  }
+  

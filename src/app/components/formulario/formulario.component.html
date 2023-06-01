@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="custom-title">
+      <h5>Estadística Ambiental</h5>
+    </div>
+    <form  class="row">
+      <div class="col-sm-4 mt-2">
+        <div class="form-group">
+          <span class="custom-subtitle d-none d-sm-block">Seleccione ámbito</span>
+          <mat-select name="ubigeo" [(ngModel)]="ubigeoSeleccionado" (ngModelChange)="enviarUbigeoTematica()" class="form-control form-control-lg">
+            <mat-option *ngFor="let item of ubigeo" [value]="item.value">{{item.nombre}}</mat-option>
+          </mat-select>
+        </div>
+      </div>
+      <div class="col-sm-4 mt-2">
+        <div class="form-group">
+          <span class="custom-subtitle d-none d-sm-block">Seleccione temática</span>
+          <mat-select name="tematica" [(ngModel)]="tematicaSeleccionada" (ngModelChange)="enviarUbigeoTematica()" class="form-control form-control-lg ">
+            <mat-option  *ngFor="let item of tematica" [value]="item.value">{{item.nombre}}</mat-option>
+          </mat-select>
+        </div>
+      </div>
+    </form>
+  </div> 

@@ -1,0 +1,7 @@
+<div *ngFor="let indicador of listaIndicadoresFiltradaIndi">
+    <div *ngIf="indicador.tematica==tematicaSeleccIndi && indicador.ambito == ambitoNorDIndi" class="mt-1">
+      <mat-radio-group [(ngModel)]="indicadorSelecc" (change)="enviarIndicadorSerie()">
+        <mat-radio-button [id]="indicador.id_indicador" [value]="indicador">{{ indicador.indicador }}</mat-radio-button>
+      </mat-radio-group>
+    </div>
+  </div>
